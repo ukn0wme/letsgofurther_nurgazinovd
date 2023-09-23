@@ -1,31 +1,31 @@
 package manager
 
 type Manager struct {
-	position string
-	salary   int
-	address  string
+	Position string
+	Salary   int
+	Address  string
 }
 
 func (m *Manager) GetPosition() string {
-	return m.position
+	return m.Position
 }
 
 func (m *Manager) SetPosition(position string) {
-	m.position = position
+	m.Position = position
 }
 
 func (m *Manager) GetSalary() int {
-	return m.salary
+	return m.Salary
 }
 
 func (m *Manager) SetSalary(salary int) {
-	m.salary = salary
+	m.Salary = salary
 }
 
 func (m *Manager) GetAddress() string {
-	return m.address
+	return m.Address
 }
 
 func (m *Manager) SetAddress(address string) {
-	m.address = address
+	m.Address = address
 }

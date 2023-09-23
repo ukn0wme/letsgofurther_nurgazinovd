@@ -27,8 +27,8 @@ func main() {
 	}
 
 	// Print employee info
-	printEmployee(mgr)
-	printEmployee(eng)
+	printEmployee(&mgr)
+	printEmployee(&eng)
 
 	// Create Sales, HR, Finance employees
 	salesRep := sales.Sales{
@@ -49,9 +49,9 @@ func main() {
 		Address:  "888 Pushkina Kolotushkina",
 	}
 
-	printEmployee(salesRep)
-	printEmployee(hrManager)
-	printEmployee(accountant)
+	printEmployee(&salesRep)
+	printEmployee(&hrManager)
+	printEmployee(&accountant)
 
 }
 

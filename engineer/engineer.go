@@ -1,31 +1,31 @@
 package engineer
 
 type Engineer struct {
-	position string
-	salary   int
-	address  string
+	Position string
+	Salary   int
+	Address  string
 }
 
 func (e *Engineer) GetPosition() string {
-	return e.position
+	return e.Position
 }
 
 func (e *Engineer) SetPosition(position string) {
-	e.position = position
+	e.Position = position
 }
 
 func (e *Engineer) GetSalary() int {
-	return e.salary
+	return e.Salary
 }
 
 func (e *Engineer) SetSalary(salary int) {
-	e.salary = salary
+	e.Salary = salary
 }
 
 func (e *Engineer) GetAddress() string {
-	return e.address
+	return e.Address
 }
 
 func (e *Engineer) SetAddress(address string) {
-	e.address = address
+	e.Address = address
 }

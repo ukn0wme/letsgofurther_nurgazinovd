@@ -1,31 +1,31 @@
 package finance
 
 type Finance struct {
-	position string
-	salary   int
-	address  string
+	Position string
+	Salary   int
+	Address  string
 }
 
 func (f *Finance) GetPosition() string {
-	return f.position
+	return f.Position
 }
 
 func (f *Finance) SetPosition(position string) {
-	f.position = position
+	f.Position = position
 }
 
 func (f *Finance) GetSalary() int {
-	return f.salary
+	return f.Salary
 }
 
 func (f *Finance) SetSalary(salary int) {
-	f.salary = salary
+	f.Salary = salary
 }
 
 func (f *Finance) GetAddress() string {
-	return f.address
+	return f.Address
 }
 
 func (f *Finance) SetAddress(address string) {
-	f.address = address
+	f.Address = address
 }

@@ -1,31 +1,31 @@
 package hr
 
 type HR struct {
-	position string
-	salary   int
-	address  string
+	Position string
+	Salary   int
+	Address  string
 }
 
 func (h *HR) GetPosition() string {
-	return h.position
+	return h.Position
 }
 
 func (h *HR) SetPosition(position string) {
-	h.position = position
+	h.Position = position
 }
 
 func (h *HR) GetSalary() int {
-	return h.salary
+	return h.Salary
 }
 
 func (h *HR) SetSalary(salary int) {
-	h.salary = salary
+	h.Salary = salary
 }
 
 func (h *HR) GetAddress() string {
-	return h.address
+	return h.Address
 }
 
 func (h *HR) SetAddress(address string) {
-	h.address = address
+	h.Address = address
 }
